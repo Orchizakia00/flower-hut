@@ -188,6 +188,46 @@ span {
     font-weight: 400;
 }
 
-.social-img{
+.social-img {
     padding-top: 50px;
 }
+
+/* styles of latest deals */
+.latest-deals {
+    text-align: center;
+    background: url('./assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 70px;
+    padding: 120px;
+    width: 1150px;
+    height: 350px;
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.latest-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: none;
+}
+
+input::placeholder {
+    color: #999999;
+    font-size: 14px;
+    padding-left: 10px;
+  }
