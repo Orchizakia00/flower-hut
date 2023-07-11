@@ -12,6 +12,7 @@
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     margin-bottom: 0px;
+    background-repeat: no-repeat;
     /* height: 800px; */
 }
 
@@ -55,6 +56,7 @@
     font-size: 20px;
     font-weight: 700;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 /* styles of featured section */
@@ -145,16 +147,14 @@ span {
     color: #E55473;
 }
 
-.deal-descrption {
-    display: flex;
-    width: 594px;
-    flex-direction: column;
+.deal-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     padding-top: 25px;
-    padding-left: 150px;
+    padding-left: 190px;
+    width: 50%;
 }
 
 #button {
@@ -164,6 +164,52 @@ span {
 .deal-img {
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-right: 100px;
+}
+
+
+
+/* style of blogs section */
+.blogs {
+    margin-top: 130px;
+}
+
+.blog-img {
+    width: 600px;
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.blog-items{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    padding-left: 130px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.blog-content{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#column{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.blog-title{
+    /* color: rgb(217, 60, 60); */
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 800;
+}
+.blog-description{
+    padding-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
 }
 
 /* style of social section */
@@ -183,9 +229,10 @@ span {
     text-align: center;
     padding-top: 25px;
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
+    width: 50%;
+    margin: auto;
 }
 
 .social-img {
@@ -198,6 +245,7 @@ span {
     background: url('./assets/Rectangle\ 9.png');
     background-repeat: no-repeat;
     margin: 70px;
+    margin-top: 150px;
     padding: 120px;
     width: 1150px;
     height: 350px;
@@ -212,7 +260,7 @@ span {
 }
 
 .latest-description {
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(73, 73, 73, 0.6);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -230,4 +278,36 @@ input::placeholder {
     color: #999999;
     font-size: 14px;
     padding-left: 10px;
-  }
+}
+
+/* styles of footer section  */
+.footer {
+    text-align: center;
+    background: #111010;
+    color: #FFF;
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 32px;
+}
